@@ -3,12 +3,15 @@
 body {
   color: #392405;
   font-family: Helvetica, sans-serif;
+  background: #fef8e1;
 }
 
 h2 {
-  font-size: 25px;
+  font-family: 'Sofia', cursive;
+  font-size: 30px;
   line-height: 0;
 }
+
 
 /***** GRID *****/
 .full-width {
@@ -58,10 +61,8 @@ nav ul li a {
 
 #description {
   background: #ffeac5;
-  height: 160px;
+  height: 170px;
 }
-
-
 #description h2 {
   line-height: 0;
 }
@@ -69,9 +70,13 @@ nav ul li a {
   font-size: 18px;
   line-height: 22px
 }
+#bread-img {
+  height: 130px;
+  border: 5px solid #fef8e1;
+  padding: 10px 10px;
+  
+}
 /***** INGREDIENTS *****/
-
-
 
 #ingredients ul {
   font-size: 20px;
@@ -82,8 +87,15 @@ nav ul li a {
 /***** DIRECTIONS *****/
 
 
-
 /***** FOOTER *****/
 footer {
   clear: both;
+  background: #ffeac5;
+  height: 50px;
+  padding: 50px 0;
+}
+
+footer p {
+  font-size: 18px;
+  line-height: 18px;
 }
