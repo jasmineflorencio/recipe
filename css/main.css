@@ -1,0 +1,89 @@
+/***** BASE STYLES *****/
+
+body {
+  color: #392405;
+  font-family: Helvetica, sans-serif;
+}
+
+h2 {
+  font-size: 25px;
+  line-height: 0;
+}
+
+/***** GRID *****/
+.full-width {
+  margin: 0 auto;
+  width: 1200px;
+}
+.half-width {
+  float: left;
+  width: 600px;
+}
+.third-width {
+  float: left;
+  width: 400px;
+}
+/***** HEADER *****/
+
+header {
+  background: #ffce7a;
+  background-size: cover;
+  height: 125px;
+}
+header h1 {
+  font-family: 'Sofia', cursive;
+  font-size: 40px;
+  line-height: 25px;
+}
+header h2 {
+  font-family: 'Sofia', cursive;
+  font-size: 25px;
+  line-height: 10px;
+}
+nav {
+  float: right;
+  padding: 40px 40px;
+  word-spacing: 10px;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  color: #a7752d;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/***** DESCRIPTION *****/
+
+#description {
+  background: #ffeac5;
+  height: 160px;
+}
+
+
+#description h2 {
+  line-height: 0;
+}
+#description p {
+  font-size: 18px;
+  line-height: 22px
+}
+/***** INGREDIENTS *****/
+
+
+
+#ingredients ul {
+  font-size: 20px;
+  line-height: 25px;
+  list-style-image: url('../img/bread.svg')
+}
+
+/***** DIRECTIONS *****/
+
+
+
+/***** FOOTER *****/
+footer {
+  clear: both;
+}
